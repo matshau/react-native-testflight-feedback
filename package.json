@@ -1,6 +1,6 @@
 {
   "name": "react-native-testflight-feedback",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Floating feedback button for TestFlight builds in React Native/Expo apps",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
