@@ -7,7 +7,7 @@ A floating feedback button for TestFlight builds in React Native / Expo apps. Ca
 ## Install
 
 ```bash
-npx expo install react-native-testflight-feedback react-native-view-shot expo-mail-composer expo-application expo-device expo-constants
+npx expo install react-native-testflight-feedback
 ```
 
 ## Setup

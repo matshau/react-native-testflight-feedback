@@ -1,6 +1,6 @@
 {
   "name": "react-native-testflight-feedback",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Floating feedback button for TestFlight builds in React Native/Expo apps",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -25,26 +25,23 @@
     "type": "git",
     "url": "https://github.com/matshau/react-native-testflight-feedback.git"
   },
-  "peerDependencies": {
-    "react": ">=18",
-    "react-native": ">=0.72",
+  "dependencies": {
     "expo-constants": ">=14",
     "expo-mail-composer": ">=12",
     "expo-application": ">=5",
     "expo-device": ">=5",
-    "expo-router": ">=3",
     "react-native-view-shot": ">=3"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.72",
+    "expo-router": ">=3"
   },
   "devDependencies": {
     "@types/react": ">=18",
     "react": "19.2.0",
     "react-native": "0.83.4",
-    "expo-constants": "55.0.11",
-    "expo-mail-composer": "55.0.12",
-    "expo-application": "55.0.13",
-    "expo-device": "55.0.12",
     "expo-router": "55.0.10",
-    "react-native-view-shot": "4.0.3",
     "typescript": "~5.9.2"
   }
 }
