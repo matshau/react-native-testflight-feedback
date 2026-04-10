@@ -25,11 +25,11 @@ interface Props {
 }
 
 const EMOJI_OPTIONS = [
-  { emoji: "😍", label: "Elsker det" },
-  { emoji: "😊", label: "Bra" },
+  { emoji: "😍", label: "Love it" },
+  { emoji: "😊", label: "Good" },
   { emoji: "😐", label: "Ok" },
-  { emoji: "😕", label: "Forvirrende" },
-  { emoji: "😢", label: "Frustrerende" },
+  { emoji: "😕", label: "Confusing" },
+  { emoji: "😢", label: "Frustrating" },
 ] as const
 
 export function FeedbackModal({
